@@ -51,6 +51,8 @@ Ex:
 
 ```
 c:\xampp\htdocs
+
+git clone https://github.com/jersrej/exam_lamudi.git
 ```
 
 Step 5:
@@ -75,7 +77,7 @@ npm install
 
 Step 6:
 
-Still on the todo_app folder, we ned save / install other modules needed (i.e. Bootstrap, Immubility helper)
+Still on the todo_app folder, we need save / install other modules needed (i.e. Bootstrap, Immubility helper)
 
 ```
 npm install immutability-helper --save
@@ -150,7 +152,7 @@ Step 8:
 
 NOTE: If you chose another database name, you need to update database name on this folder c:/xampp/htdocs/{ your path }/exam_lamudi/config/db.php
 
-We need to change database connection credentials on located on c:/xampp/htdocs/{ your path }/exam_lamudi/config/db.phpmyadmin
+We need to change database connection credentials on located on c:/xampp/htdocs/{ your path }/exam_lamudi/config/db.php
 
 ```
     private $host = "your_host";

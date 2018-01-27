@@ -80,6 +80,7 @@ npm install bootstrap --save
 ```
 
 [Immubility Helper](https://www.npmjs.com/package/immutability-helper)
+
 [Reactstrap](http://reactstrap.github.io/) - For bootstrap guide class names 
 
 Step 7:
@@ -169,7 +170,7 @@ Let's start our apache and mysql server by going to our xampp control panel.
 
 ![image](https://preview.ibb.co/h22A3b/xampp.png)
 
-Once all done we can now run the application. Make sure on your cmd terminal is located on todo_app folder.
+Once all done we can now run the application. Make sure your cmd terminal is located on todo_app folder.
 
 ![image](https://preview.ibb.co/cbNM9G/npmstart.png)
 

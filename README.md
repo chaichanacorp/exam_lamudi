@@ -164,8 +164,6 @@ Step 10:
 
 Once all done we can now run the application. Make sure on you cmd terminal we are located on todo_app folder.
 
-Example:
-
 ```
 npm start
 ```

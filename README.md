@@ -110,8 +110,8 @@ CREATE TABLE `to_do_app` (
 --
 
 INSERT INTO `to_do_app` (`id`, `todo_item`, `is_done`, `date_added`) VALUES
-(120, 'add na nga e ', 0, '2018-01-27 04:41:41'),
-(121, 'asdadaa ada dasd adad adawea aweqwq4qasd a4qwasd ', 0, '2018-01-27 04:41:46');
+(120, 'todo test 1 ', 0, '2018-01-27 04:41:41'),
+(121, 'todo test 2', 0, '2018-01-27 04:41:46');
 
 --
 -- Indexes for dumped tables

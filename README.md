@@ -20,6 +20,8 @@ Bootstrap
 Immubility Helper
 ```
 
+And most importantly you need to have an active internet connection for you to download these tools and modules.
+
 ### Installing
 
 Step 1:

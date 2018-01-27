@@ -45,6 +45,8 @@ npm install -g create-react-app
 Step 4:
 Download or Git Clone this repository on your htdocs folder only w/c is located on Local Disk C or D (depends on your xampp installation path)
 
+![image](https://image.ibb.co/kqAf3b/gitclone.png)
+
 Ex:
 
 ```
@@ -59,6 +61,8 @@ NOTE: You need to go to todo_app inside the exam_lamudi folder
 
 on cmd terminal:
 
+![image](https://preview.ibb.co/mkPUww/npminstall.png)
+
 ```
 cd exam_lamudi\todo_app
 ```
@@ -71,7 +75,7 @@ npm install
 
 Step 6:
 
-Installing other modules needed (i.e. Bootstrap, Immubility helper)
+Still on the todo_app folder, we ned save / install other modules needed (i.e. Bootstrap, Immubility helper)
 
 ```
 npm install immutability-helper --save

@@ -116,13 +116,6 @@ INSERT INTO `to_do_app` (`id`, `todo_item`, `is_done`, `date_added`) VALUES
 --
 -- Indexes for dumped tables
 --
-
---
--- Indexes for table `registered_users`
---
-ALTER TABLE `registered_users`
-  ADD PRIMARY KEY (`user_id`);
-
 --
 -- Indexes for table `to_do_app`
 --
@@ -133,10 +126,6 @@ ALTER TABLE `to_do_app`
 -- AUTO_INCREMENT for dumped tables
 --
 
---
--- AUTO_INCREMENT for table `registered_users`
---
-ALTER TABLE `registered_users`
   MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=85;
 --
 -- AUTO_INCREMENT for table `to_do_app`
@@ -146,6 +135,7 @@ ALTER TABLE `to_do_app`
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
 ```
 
 Step 8: 

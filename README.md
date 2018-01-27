@@ -79,6 +79,9 @@ npm install --save reactstrap@next react react-dom
 npm install bootstrap --save
 ```
 
+[Immubility Helper](https://www.npmjs.com/package/immutability-helper)
+[Reactstrap](http://reactstrap.github.io/) - For bootstrap guide class names 
+
 Step 7:
 
 Go to your local phpmyadmin on your browser to create our database and tables.
@@ -161,6 +164,10 @@ let localHost = 'http://localhost/ { your folder path }/exam_lamudi';
 ```
 
 Step 10:
+
+Let's start our apache and mysql server by going to our xampp control panel.
+
+![image](https://imgur.com/a/BfYtR)
 
 Once all done we can now run the application. Make sure on you cmd terminal we are located on todo_app folder.
 

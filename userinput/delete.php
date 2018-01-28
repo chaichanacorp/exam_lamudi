@@ -18,18 +18,15 @@ $db = $database->getConnection();
 // initialize object
 $todo_input = new Userinput($db);
 
-// set ID property of department to be deleted
+// set ID property of item to be deleted
 $todo_input->id = filter_input(INPUT_GET, 'id');
 
-// delete the department
+// delete the item
 if ($todo_input->delete()) {
     echo '{';
     echo '"message": "To do item was deleted."';
     echo '}';
-}
-
-// if unable to delete the department
-else {
+} else {
     echo '{';
     echo '"message": "Unable to delete item."';
     echo '}';

@@ -16,11 +16,11 @@ class App extends Component {
   // for getting data
   componentDidMount = () => {
     fetch(localHost + "/userinput/read.php")
-      .then(res => res.json())
-      .then((result) => {
-          if (result.id !== null){
+      .then(response => response.json())
+      .then((responseJson) => {
+          if (responseJson.id !== null){
             this.setState({
-              items: result.todo_list
+              items: responseJson.todo_list
             });
           }else{
             this.setState({
@@ -29,7 +29,7 @@ class App extends Component {
             this.setState({
               alert: "alert-info",
               message: "Note: No to-do items yet, please add."
-            })                
+            });                
           }
       }).catch((error) => {
           console.log(error);                
@@ -45,7 +45,7 @@ class App extends Component {
       this.setState({
         alert: "alert-danger",
         message: "Note: Please enter your to-do item!"
-      })
+      });
     } else {
       fetch(localHost + "/userinput/create.php", {
         method: "POST",
@@ -59,15 +59,14 @@ class App extends Component {
         })
       }).then((response) => response.json())
         .then((responseJson) => {
-            console.log(responseJson.id);
             const newItem = ({ 'id' : responseJson.id, 'todo_item': TodoItem, "is_done" : 0 });
             this.setState ({
               items: [...this.state.items, newItem]
-            })
+            });
             this.setState({
               alert: "alert-success",
               message: "Note: Succesfully added your to-do item!"
-            })            
+            });          
             this.formTodo.reset();
         }).catch((error) => {
             console.log(error);
@@ -88,14 +87,13 @@ class App extends Component {
           this.setState({
             alert: "alert-danger",
             message: "Note: No more to-do list!"
-          })
+          });
         } else {
           this.setState({
             alert: "alert-info",
             message: "Note: Successfully removed to-do item."
-          })        
+          });        
         }
-        console.log(responseJson);
       }).catch((error) => {
         console.log(error);
       });    
@@ -103,9 +101,7 @@ class App extends Component {
 
   // for complete to do
   DoneToDo = (item, index) => {
-    console.log(localHost);
     let todoUpdate = null;
-
     let todo = {...this.state.items}
    
     if (todo[index].is_done == 0) {

@@ -21,7 +21,6 @@ $row_num = $run_query->rowCount();
  
 // check if more than 0 record found
 if ($row_num > 0) {
-    // registered users array
     $todo_list_arr = array();
     $todo_list_arr['todo_list'] = array();
  

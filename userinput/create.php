@@ -21,11 +21,11 @@ $todo_input = new Userinput($db);
 // get posted data
 $data_input = json_decode(file_get_contents("php://input"));
  
-// set department property value
+// set todo item property value
 $todo_input->todo_item 	= $data_input->todo_item;
 $todo_input->is_done 	= $data_input->is_done;
 
-// conditional statement if users are created
+// conditional statement if item are created
 if ($todo_input->create()) {
 	$todo_input->id = $todo_input->lastid();
 	echo json_encode($todo_input);

@@ -20,8 +20,6 @@ Bootstrap
 Immubility Helper
 ```
 
-And most importantly you need to have an active internet connection for you to download these tools and modules.
-
 ### Installing
 
 Step 1:
@@ -53,8 +51,6 @@ Ex:
 
 ```
 c:\xampp\htdocs
-
-git clone https://github.com/jersrej/exam_lamudi.git
 ```
 
 Step 5:
@@ -79,7 +75,7 @@ npm install
 
 Step 6:
 
-Still on the todo_app folder, we need save / install other modules needed (i.e. Bootstrap, Immubility helper)
+Still on the todo_app folder, we ned save / install other modules needed (i.e. Bootstrap, Immubility helper)
 
 ```
 npm install immutability-helper --save
@@ -88,10 +84,7 @@ npm install bootstrap --save
 ```
 
 [Immubility Helper](https://www.npmjs.com/package/immutability-helper)
-<<<<<<< HEAD
-=======
 
->>>>>>> 615312f048518baf9c69a85a08bfe0fd16f257b1
 [Reactstrap](http://reactstrap.github.io/) - For bootstrap guide class names 
 
 Step 7:
@@ -157,7 +150,7 @@ Step 8:
 
 NOTE: If you chose another database name, you need to update database name on this folder c:/xampp/htdocs/{ your path }/exam_lamudi/config/db.php
 
-We need to change database connection credentials on located on c:/xampp/htdocs/{ your path }/exam_lamudi/config/db.php
+We need to change database connection credentials on located on c:/xampp/htdocs/{ your path }/exam_lamudi/config/db.phpmyadmin
 
 ```
     private $host = "your_host";
@@ -181,13 +174,9 @@ Let's start our apache and mysql server by going to our xampp control panel.
 
 ![image](https://preview.ibb.co/h22A3b/xampp.png)
 
-<<<<<<< HEAD
-Once all done we can now run the application. Make sure on you cmd terminal we are located on todo_app folder.
-=======
 Once all done we can now run the application. Make sure your cmd terminal is located on todo_app folder.
 
 ![image](https://preview.ibb.co/cbNM9G/npmstart.png)
->>>>>>> 615312f048518baf9c69a85a08bfe0fd16f257b1
 
 ```
 npm start

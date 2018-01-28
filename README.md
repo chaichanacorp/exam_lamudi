@@ -1,4 +1,4 @@
-# REST API PHP React
+# REST API PHP React To-do App
 
 Web based app for to-do list created using PHP as backend and React JS as front-end.
 
@@ -19,6 +19,8 @@ React
 Bootstrap
 Immubility Helper
 ```
+
+And most importantly you need to have an active internet connection for you to download these tools and modules.
 
 ### Installing
 
@@ -47,10 +49,9 @@ Download or Git Clone this repository on your htdocs folder only w/c is located 
 
 ![image](https://image.ibb.co/kqAf3b/gitclone.png)
 
-Ex:
-
 ```
 c:\xampp\htdocs
+git clone https://github.com/jersrej/exam_lamudi.git
 ```
 
 Step 5:
@@ -67,7 +68,7 @@ on cmd terminal:
 cd exam_lamudi\todo_app
 ```
 
-then run this npm again on your cmd terminal
+then run this npm code on your cmd terminal
 
 ```
 npm install
@@ -75,7 +76,7 @@ npm install
 
 Step 6:
 
-Still on the todo_app folder, we ned save / install other modules needed (i.e. Bootstrap, Immubility helper)
+Still on the todo_app folder, we need save / install other modules needed (i.e. Bootstrap, Immubility helper)
 
 ```
 npm install immutability-helper --save
@@ -90,8 +91,6 @@ npm install bootstrap --save
 Step 7:
 
 Go to your local phpmyadmin on your browser to create our database and tables.
-
-Example:
 
 ```
 http://localhost/phpyadmin
@@ -150,7 +149,7 @@ Step 8:
 
 NOTE: If you chose another database name, you need to update database name on this folder c:/xampp/htdocs/{ your path }/exam_lamudi/config/db.php
 
-We need to change database connection credentials on located on c:/xampp/htdocs/{ your path }/exam_lamudi/config/db.phpmyadmin
+We need to change database connection credentials on located on c:/xampp/htdocs/{ your path }/exam_lamudi/config/db.php
 
 ```
     private $host = "your_host";
@@ -191,4 +190,3 @@ Able to remove the to-do item.
 ## By:
 
 Jerson Q. Conmigo
-

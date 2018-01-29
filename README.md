@@ -133,7 +133,7 @@ ALTER TABLE `to_do_app`
 -- AUTO_INCREMENT for dumped tables
 --
 
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=85;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=122;
 --
 -- AUTO_INCREMENT for table `to_do_app`
 --
